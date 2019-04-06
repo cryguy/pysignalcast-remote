@@ -2,26 +2,23 @@
 # implement imports here
 
 
+# TODO: implement proper plugin system
 plugins = ["plug.torrent", "plug.magnet", "plug.url"]
 
 
 def main():
     while True:
+        # TODO: implement selenium driver
+        # TODO: integrate with jdownloader/some other service
         todo = get_commands()
         result = handle_commands(todo)
         print(result)
         break
 
 
-
+# TODO: implement client server logic
 def get_commands():
     return None
-
-
-
-def dosomething():
-    return True
-
 
 
 def handle_commands(args):
@@ -32,3 +29,4 @@ def handle_commands(args):
 
 
 main()
+
