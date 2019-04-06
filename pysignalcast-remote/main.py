@@ -15,13 +15,8 @@ def main():
 
 
 def get_commands():
+    # implement client server
     return None
-
-
-
-def dosomething():
-    return True
-
 
 
 def handle_commands(args):
@@ -32,3 +27,12 @@ def handle_commands(args):
 
 
 main()
+
+'''
+todo:
+implement proper plugin system
+implement client server logic
+    - implement authentication
+implement selenium driver
+integrate with jdownloader/some other service
+'''
